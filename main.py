@@ -3,7 +3,7 @@ from pizzas.base_pizza import base_pizza
 from pizzas.seleccionar_base import masa
 from pizzas.elegir_salsa import elegir_salsa
 from pizzas.agregar_ingredientes import agregar_ingredientes
-from pizzas.quitar_frutas import quitar_fruta
+from pizzas.quitar_ingrediente import quitar_ingrediente
 
 def main():
     
@@ -26,7 +26,8 @@ def main():
             print(pizza)
         
         elif opcion == "4":
-            quitar_fruta(vaso)
+            quitar_ingrediente(pizza)
+            print(pizza)
         
         elif opcion == "5":
             print("5")
