@@ -4,10 +4,10 @@
 def menu():
     print("""
 
-1. Elegir un tipo de base liquida.
-2. Elegir azucar o endulzante.
-3. Agregar fruta.
-4. Quitar fruta.
-5. Mostrar bebida.
+1. Elegir un tipo de masa.
+2. Elegir tipo de salsa.
+3. Agregar ingredientes.
+4. Quitar ingredientes.
+5. Mostrar pizza.
 6. Salir.
 """)

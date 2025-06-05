@@ -1,5 +1,5 @@
 def crear_bebida():
-    bebida = {
+    vaso = {
         "base" : "",
         "endulzante" : "",
         "frutas" : []
