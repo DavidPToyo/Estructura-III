@@ -5,7 +5,7 @@ def quitar_fruta(vaso):
     print(frutas)
 
     print("las opciones para borrar son estas: ")
-
+"""
      for i in frutas:
        print(f".- {i}")
     
@@ -13,4 +13,4 @@ def quitar_fruta(vaso):
 
     
     fruta = frutas[opcion]
-    vaso["frutas"].remove(fruta)
+    vaso["frutas"].remove(fruta)"""

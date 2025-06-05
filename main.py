@@ -1,28 +1,29 @@
-from jugos.menu import menu
-from jugos.crear_bebida import crear_bebida
-from jugos.seleccionar_base import seleccionar_base
-from jugos.elegir_endulzante import elegir_endulzante
-from jugos.agregar_frutas import agregar_fruta
-from jugos.quitar_frutas import quitar_fruta
+from pizzas.menu import menu
+from pizzas.base_pizza import base_pizza
+from pizzas.seleccionar_base import masa
+from pizzas.elegir_salsa import elegir_salsa
+from pizzas.agregar_ingredientes import agregar_ingredientes
+from pizzas.quitar_frutas import quitar_fruta
 
 def main():
     
-    vaso = crear_bebida()
+    pizza = base_pizza()
 
     while True:
         menu()
         opcion = input("opcion: ")
 
         if opcion == "1": 
-            seleccionar_base(vaso)
-            print(vaso)
+            masa(pizza)
+            print(pizza)
             
         elif opcion == "2":
-            elegir_endulzante(vaso)
-            print(vaso)
+            elegir_salsa(pizza)
+            print(pizza)
+
         elif opcion == "3":
-            agregar_fruta(vaso)
-            print(vaso)
+            agregar_ingredientes(pizza)
+            print(pizza)
         
         elif opcion == "4":
             quitar_fruta(vaso)
