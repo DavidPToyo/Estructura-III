@@ -5,7 +5,7 @@ from pizzas.elegir_salsa import elegir_salsa
 from pizzas.agregar_ingredientes import agregar_ingredientes
 from pizzas.quitar_ingrediente import quitar_ingrediente
 from pizzas.tiempo import estimacion_tiempo
-
+from pizzas.mostrar_pizza import mostrar_pizza
 
 
 
@@ -34,7 +34,8 @@ def main():
             print(pizza)
         
         elif opcion == "5":
-            print("5")
+            mostrar_pizza(pizza)
+            
         
         elif opcion == "6":
             estimacion_tiempo(pizza)
