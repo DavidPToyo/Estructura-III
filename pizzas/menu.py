@@ -9,5 +9,6 @@ def menu():
 3. Agregar ingredientes.
 4. Quitar ingredientes.
 5. Mostrar pizza.
-6. Salir.
+6. Tiempo de espera de pizza.
+7. Salir.
 """)

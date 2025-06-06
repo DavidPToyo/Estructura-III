@@ -4,6 +4,10 @@ from pizzas.seleccionar_base import masa
 from pizzas.elegir_salsa import elegir_salsa
 from pizzas.agregar_ingredientes import agregar_ingredientes
 from pizzas.quitar_ingrediente import quitar_ingrediente
+from pizzas.tiempo import estimacion_tiempo
+
+
+
 
 def main():
     
@@ -32,6 +36,9 @@ def main():
         elif opcion == "5":
             print("5")
         
+        elif opcion == "6":
+            estimacion_tiempo(pizza)
+            
         else:
             print("salir")
 
