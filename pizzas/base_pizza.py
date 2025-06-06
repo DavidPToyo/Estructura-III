@@ -1,7 +1,7 @@
 def base_pizza():
     pizza = {
         "masa" : "",
-        "salsas" : "",
+        "salsa" : "",
         "ingredientes" : []
     }
 

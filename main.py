@@ -41,6 +41,7 @@ def main():
             
         else:
             print("salir")
+            break
 
 if __name__ == "__main__":
     main()

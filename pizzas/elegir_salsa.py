@@ -2,33 +2,31 @@
 
 
 def elegir_salsa(pizza):
-    salsa = ["1", "2", "3", "4"]
 
-    opcion = int(input("""
+    opcion = input("""
 Selecciona las salsas:
                    
 1. Salsa de Tomate.
 2. Salsa Alfredo.
 3. Salsa Barbecue.
 4. Salsa Pesto.
-"""))
+Opcion: """)
     
-    if opcion == salsa[0]:
+    if opcion == "1":
         pizza["salsa"] = "Salsa de Tomate"
-        print(f"La {pizza[salsa]} agregada correctamente. ")
-    
-    elif opcion == salsa[1]:
+
+    elif opcion == "2":
         pizza["salsa"] = "Salsa Alfredo"
-        print(f"La {pizza[salsa]} agregada correctamente. ")
-    
-    elif opcion == salsa[2]:
+
+    elif opcion == "3":
         pizza["salsa"] = "Salsa Barbecue"
-        print(f"La {pizza[salsa]} agregada correctamente. ")
     
-    elif opcion == salsa[3]:
-        print(f"La {pizza[salsa]} agregada correctamente. ")
+    elif opcion == "4":
+        pizza["salsa"] = "Salsa Pesto"
 
     else:
-        print("Opción no valida")
+        print("Opción no válida.")
+        return
+    
 
-    return pizza
+   
